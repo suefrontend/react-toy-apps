@@ -1,0 +1,23 @@
+.title {
+	margin: 0 0 30px 0;
+	padding: 20px 0;
+}
+.bubble {
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	grid-gap: 10px;
+}
+.bubble__item {
+	width: 120px;
+	height: 120px;
+	background: #5fdde5;
+	border-radius: 50%;
+	cursor: pointer;
+}
+.btn {
+	background: #5fdde5;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 3px;
+	color: #fff;
+}
