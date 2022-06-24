@@ -1,7 +1,7 @@
 import '../App.css';
 import BubbleList from './components/BubbleList';
 
-const App = () => {
+const PopTheBubble = () => {
 	return (
 		<div className='container'>
 			<div className='title'>
@@ -12,4 +12,4 @@ const App = () => {
 		</div>
 	);
 };
-export default App;
+export default PopTheBubble;

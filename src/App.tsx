@@ -1,7 +1,8 @@
+import { FC } from 'react';
 import { Link } from 'react-router-dom';
 import './App.css';
 
-const PopTheBubbleApp = () => {
+const App: FC = () => {
 	return (
 		<div className='container'>
 			<h2>My React Toy Apps</h2>
@@ -14,4 +15,4 @@ const PopTheBubbleApp = () => {
 	);
 };
 
-export default PopTheBubbleApp;
+export default App;
